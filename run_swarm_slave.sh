@@ -1,5 +1,5 @@
 #!/bin/bash
 
-java -jar swarm-client-2.0-jar-with-dependencies.jar \
+java -jar swarm-client-3.3.jar \
     -master http://jenkins-master:8080/ \
     -name slave
