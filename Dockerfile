@@ -2,7 +2,7 @@ FROM java:8u111-jdk
 
 MAINTAINER moiamond <moiamond@gmail.com>
 
-ENV JENKINS_SWARM_VERSION 3.3
+ENV JENKINS_SWARM_VERSION 3.6
 ENV HOME /home/jenkins-slave
 
 # install netstat to allow connection health check with
